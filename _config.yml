@@ -2,9 +2,9 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Dallas Nite Theme
+tagline:             Well Dallas is a jewel, oh yeah, Dallas is a beautiful sight.
+url:                 https://corbtastik.github.io/dallas-nite/
 paginate:            1
 baseurl:             ""
 
@@ -17,14 +17,13 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
+  name:              corbs
+  url:               https://github.com/corbtastik
+  
 # Custom vars
-version:             2.0.0
+version:             1.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/corbtastik/dallas-nite
 
 # Gems
 plugins:
