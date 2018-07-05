@@ -8,6 +8,7 @@ url:                 https://corbtastik.github.io/dallas-nite/
 paginate:            1
 baseurl:             ""
 
+exclude: [docs]
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
