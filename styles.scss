@@ -27,3 +27,121 @@
 @import "posts";
 @import "pagination";
 @import "message";
+
+body {
+    color: $periwrinkle;
+    background-color: $stratos;
+}
+
+blockquote {
+    color: $tickle-me-pink;
+    border-left: .25rem solid $tickle-me-pink;
+}
+
+a {
+    color: $folly;
+    text-decoration: none;
+}
+
+strong,
+em,
+abbr,
+h2,
+cite,
+del,
+ins,
+sup,
+sub {
+    color: $lavender-indigo;
+}
+
+h1, h2, h3 {
+    color: $deep-sky-blue;
+}
+
+code {
+    color: $jagger;
+    background-color: $periwrinkle;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\25CF";
+    color: $folly;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+ol {
+    list-style: none;
+    counter-reset: li;
+}
+
+ol li::before {
+    content: counter(li);
+    color: $folly;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em
+}
+
+ol li {
+    counter-increment: li
+}
+
+// <dl>
+//   <dt>HyperText Markup Language (HTML)</dt>
+//   <dd>The language used to describe and define the content of a Web page</dd>
+
+//   <dt>Cascading Style Sheets (CSS)</dt>
+//   <dd>Used to describe the appearance of Web content</dd>
+
+//   <dt>JavaScript (JS)</dt>
+//   <dd>The programming language used to build advanced Web sites and applications</dd>
+// </dl>
+dl {
+    dt {
+        color: $caribbean-green;
+    }
+    dd {
+        color: $tickle-me-pink;
+    }
+}
+
+.highlight {
+    color: $jagger;
+    background-color: $blue-chalk;
+}
+
+.footnote {
+    color: $folly;
+}
+
+.masthead-title {
+    color: $caribbean-green;
+  
+    small {
+        color: $deep-sky-blue;
+    }
+}
+
+.page-title,
+.post-title,
+.post-title a {
+    color: $deep-sky-blue;
+}
+
+.post-date {
+    color: $caribbean-green;
+}
+
+.message {
+    color: $paris;
+    background-color: $sail;
+    border-radius: 4px;
+}
+

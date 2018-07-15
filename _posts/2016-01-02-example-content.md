@@ -118,9 +118,11 @@ Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo r
 
 Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
 
-![placeholder](http://placehold.it/800x400 "Large example image")
-![placeholder](http://placehold.it/400x200 "Medium example image")
-![placeholder](http://placehold.it/200x200 "Small example image")
+![placeholder](/public/images/red-pegasus-dallas-800x600.jpg "Medium example image")
+![placeholder](/public/images/granada-dallas-400x500.jpg "Large example image")
+![placeholder](/public/images/campisis-dallas-400x300.jpg "Large example image")
+![placeholder](/public/images/omni-dallas-200x200.jpg "Small example image")
+![placeholder](/public/images/boa-dallas-200x200.jpg "Small example image")
 
 ### Tables
 

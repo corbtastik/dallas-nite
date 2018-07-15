@@ -1,0 +1,8 @@
+---
+applications:
+- name: dallas-nite
+  memory: 1G
+  path: _site
+  routes:
+  - route: dallas-nite.cfapps.io
+  buildpack: staticfile_buildpack
