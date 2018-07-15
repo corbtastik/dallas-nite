@@ -111,6 +111,27 @@ dl {
         color: $tickle-me-pink;
     }
 }
+ 
+table {
+    border: 1px solid $caribbean-green;
+}
+  
+td,
+th {
+color: $stratos;
+background-color: $caribbean-green;
+border: 1px solid $caribbean-green;
+}
+  
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+background-color: $white-ice;
+}
+
+tbody tr:nth-child(even) td,
+tbody tr:nth-child(even) th {
+background-color: $white-ice;
+}
 
 .highlight {
     color: $jagger;
